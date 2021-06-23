@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asul&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=K2D&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Nina's Crochet Creations</title>
+</head>
+
+<body class="contactbody">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg purplelight">
+        <a class="navbar-brand purpleheart mx-2">Nina's Crochet Creations</a>
+        <button class="navbar-toggler btn btn-outline-purple ham" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span><i class="fa fa-bars purpleheart ham" aria-hidden="true"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link mx-2 purpleheart" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2 purpleheart" href="index.html#products">Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mx-2 purpleheart" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+                    <div class="dropdown-menu purplelight" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item purpleheart" href="contact.html" target="_blank">Contact Me</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item purpleheart" href="#" target="_blank">About Me</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2 purpleheart" href="https://djlarj.github.io/wfb_final-project/"
+                        target="_blank">Partner</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 mx-2">
+                <input class="form-control mr-sm-3 purplelight" type="search" placeholder="Keyword(s)"
+                    aria-label="Search">
+                <button class="btn btn-outline-purple my-2 my-sm-0 srchbtn" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Form -->
+    <div class="col-md-8 order-md-1 formcont text-white mx-auto">
+        <div class="my-5 pt-5 text-center">
+            <h1>Contact Me</h1>
+        </div>    
+        <form class="needs-validation" novalidate action="action.html" target="_self">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                        Valid first name is required.
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                        Valid last name is required.
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com" value="" required>
+                <div class="invalid-feedback">
+                    Please enter a valid email address.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                <div class="invalid-feedback">
+                    Please enter your shipping address.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="address2">Address 2 <span class="text-light">(Optional)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Apartment or Suite">
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                    <label for="country">Country</label>
+                    <select class="custom-select d-block w-100" id="country" required>
+                        <option value="">Choose...</option>
+                        <option>United States</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid country.
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="state">State</label>
+                    <select class="custom-select d-block w-100" id="state" required>
+                        <option value="">Choose...</option>
+                        <option>California</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please provide a valid state.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="zip">Zip</label>
+                    <input type="text" class="form-control" id="zip" placeholder="" required>
+                    <div class="invalid-feedback">
+                        Zip code required.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <label for="exampleFormControlTextarea1">Comments</label>
+                    <textarea class="form-control" id="comments" rows="5"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <button class="btn btn-purple mr-3" type="reset" value="Reset">Reset</button>
+                    <button class="btn btn-purple" type="submit" value="Submit">Submit</button>
+                </div>    
+            </div>
+
+        </form>
+    </div>            
+
+    <!-- Footer -->
+    <footer class="container-fluid mt-5">
+        <div class="row">
+            <!-- copyright -->
+            <div class="col d-flex justify-content-center font-weight-bold purpleheart purplelight">
+                <p class="align-middle my-auto text-center">©2021 Nina's Crochet Creations</p>
+            </div>
+            <!-- navlinks -->
+            <div class="col purplelight">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link align-middle mx-1 purpleheart" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link align-middle mx-1 purpleheart" href="index.html#products">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle purpleheart mx-1" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+                        <div class="dropdown-menu purplelight" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item purpleheart" href="contact.html" target="_blank">Contact Me</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item purpleheart" href="#" target="_blank">About Me</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link align-middle mx-1 purpleheart"
+                            href="https://djlarj.github.io/wfb_final-project/" target="_blank">Partner</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- socialmedialinks -->
+            <div class="col d-flex justify-content-center purplelight">
+                <p class="my-auto text-center social">
+                    <a class="align-middle mx-3 purpleheart" href="https://www.facebook.com" target="_blank"><i
+                            class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a class="align-middle mx-3 purpleheart" href="https://www.pinterest.com/" target="_blank"><i
+                            class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+                    <a class="align-middle mx-3 purpleheart" href="https://www.snapchat.com/" target="_blank"><i
+                            class="fa fa-snapchat-square" aria-hidden="true"></i></a>
+                    <a class="align-middle mx-3 purpleheart" href="https://www.twitter.com" target="_blank"><i
+                            class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+</body>
+
+</html>

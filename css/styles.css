@@ -1,0 +1,64 @@
+.indexbody {
+    background-color: #631a85;
+    font-family: 'Asul', sans-serif;
+}
+.purpleheart {
+    color: #8e25be;
+}
+.purplelight {
+    background-color: #f4e9f9;
+}
+.purplelighttext {
+    color: #f4e9f9;
+}
+.btn-outline-purple {
+    color: #8e25be;
+    border-color: #8e25be;
+}
+a:hover{
+    color: #631a85;
+}
+.dropdown-item:hover {
+    color: #631a85;
+    background-color: #f4e9f9;
+}
+.srchbtn:hover {
+    color: #f4e9f9;
+    background-color: #8e25be;
+    border-color: #8e25be;
+}
+#products {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/margarida-afonso-ahMCpXdUjv0-unsplash.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.cart {
+    font-size: x-large;
+}
+.cart:hover {
+    color: #8e25be;
+}
+.social {
+    font-size: x-large;
+}
+.contactbody {
+    background-color: #631a85;
+    font-family: 'K2D', sans-serif;
+}
+.formcont {
+    max-width: 960px;
+    background-color: #8e25be;
+}
+.btn-purple {
+    color: #f4e9f9;
+    background-color: #631a85;
+    border-color: #631a85;
+}
+.btn-purple:hover {
+    color: #8e25be;
+}
+.form-control, .custom-select {
+    background-color: #f4e9f9;
+}
