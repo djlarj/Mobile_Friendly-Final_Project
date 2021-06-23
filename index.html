@@ -26,7 +26,7 @@
 <body class="indexbody">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg purplelight mb-5">
+  <nav class="navbar navbar-expand-lg purplelight">
     <a class="navbar-brand purpleheart mx-2">Nina's Crochet Creations</a>
     <button class="navbar-toggler btn btn-outline-purple ham" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,114 +59,166 @@
         <button class="btn btn-outline-purple my-2 my-sm-0 srchbtn" type="submit">Search</button>
       </form>
     </div>
-
   </nav>
 
   <!-- Carousel -->
-  <div class="d-flex flex-column align-items-center my-5 purplelighttext">
-    <h3>Featured Creations</h3>
-  </div>
-  <div id="carousel1" class="carousel slide w-50 mx-auto" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel1" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel1" data-slide-to="1"></li>
-      <li data-target="#carousel1" data-slide-to="2"></li>
-      <li data-target="#carousel1" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="pic d-block w-100" src="" alt="Item 1">
-        <div class="carousel-caption d-none d-md-block text-white">
-          <h5>Item 1</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="pic d-block w-100" src="" alt="Item 2">
-        <div class="carousel-caption d-none d-md-block text-white">
-          <h5>Item 2</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="pic d-block w-100" src="" alt="Item 3">
-        <div class="carousel-caption d-none d-md-block text-white">
-          <h5>Item 3</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="pic d-block w-100" src="" alt="Item 4">
-        <div class="carousel-caption d-none d-md-block text-white">
-          <h5>Item 4</h5>
-        </div>
-      </div>
+  <div class="maincarousel py-1">
+    <div class="d-flex flex-column align-items-center my-5 purplelighttext">
+      <h3>Featured Creations</h3>
     </div>
-    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div id="carousel1" class="carousel slide mx-auto my-5" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel1" data-slide-to="1"></li>
+        <li data-target="#carousel1" data-slide-to="2"></li>
+        <li data-target="#carousel1" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="pic d-block w-100" src="img/mask.jpg" alt="Item 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="font-weight-bold purpleheart">Colorful Face Mask</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="pic d-block w-100" src="img/elfhat.jpg" alt="Item 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="font-weight-bold purpleheart">Elf Hat</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="pic d-block w-100" src="img/hoodie_scarf.jpg" alt="Item 3">
+          <div class="carousel-caption d-none d-md-block rainbow">
+            <h5 class="font-weight-bold purpleheart">Rainbow Hoodie-Scarf</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="pic d-block w-100" src="img/headband_pink.jpg" alt="Item 4">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h5 class="font-weight-bold purpleheart">Pink and Gray Headband</h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
 
   <!-- Cards -->
   <div class="py-5" id="products">
-  <div class="d-flex flex-column align-items-center purplelighttext">
-    <h3>More Creations</h3>
-    <div class="align-self-end mr-5">
-      <a class="purplelighttext cart" href="#" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+    <div class="d-flex flex-column align-items-center purplelighttext">
+      <h3>My Creations</h3>
+      <div class="align-self-end mr-5">
+        <a class="purplelighttext cart" href="#" target="_blank"><i class="fa fa-shopping-cart"
+            aria-hidden="true"></i></a>
+      </div>
     </div>
-  </div>
-  <div class="card-deck mx-5 my-5">
-    <div class="card h-200">
-      <img src="img/" class="card-img-top image-fluid" alt="Beanie">
-      <div class="card-body">
-        <h5 class="card-title">Beanie</h5>
-        <p class="card-text">Text Here</p>
-        <div class="row">
-          <div class="col-md">
+    <div class="card-deck mx-5 mt-5">
+      <div class="card h-100">
+        <img src="img/beanie.jpg" class="card-img-top img-thumbnail" alt="Beanie">
+        <div class="card-body purplelight">
+          <h5 class="card-title purpleheart">Beanie &nbsp;$25</h5>
+          <p class="card-text purpleheart">White-Purple-Green. Fits a child and a young person well.</p>
+          <div class="row">
+            <div class="col-md">
               <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
-          </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card h-100">
+        <img src="img/gloves.jpg" class="card-img-top img-thumbnail" alt="Scarf">
+        <div class="card-body purplelight">
+          <h5 class="card-title purpleheart">Yellow Mittens &nbsp;$15</h5>
+          <p class="card-text purpleheart">Perfect for the winter. Fits a child's hands best.</p>
+          <div class="row">
+            <div class="col-md">
+              <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card h-100">
+        <img src="img/headband_blue.jpg" class="card-img-top img-thumbnail" alt="Gloves">
+        <div class="card-body purplelight">
+          <h5 class="card-title purpleheart">Navy Blue Headband &nbsp;$15</h5>
+          <p class="card-text purpleheart">Beautiful square pattern headband. Has a classy look to it.</p>
+          <div class="row">
+            <div class="col-md">
+              <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card h-100">
+        <img src="img/scarf.jpg" class="card-img-top img-thumbnail" alt="Beanie">
+        <div class="card-body purplelight">
+          <h5 class="card-title purpleheart">Purple-Green Scarf &nbsp;$25</h5>
+          <p class="card-text purpleheart">Nice scarf that will keep your neck warm during the cold season.</p>
+          <div class="row">
+            <div class="col-md">
+              <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="card h-200">
-      <img src="img/" class="card-img-top" alt="Scarf">
-      <div class="card-body">
-        <h5 class="card-title">Scarf</h5>
-        <p class="card-text">Text Here</p>
-        <div class="row">
-          <div class="col-md">
+    <div class="card-deck mx-5 mt-5">
+      <div class="card h-100">
+        <img src="img/mask.jpg" class="card-img-top img-thumbnail" alt="Beanie">
+        <div class="card-body purplelight">
+          <h5 class="card-title purpleheart">Colorful Face Mask &nbsp;$10</h5>
+          <p class="card-text purpleheart">Meets CDC standards with 100% cotton cloth inside.</p>
+          <div class="row">
+            <div class="col-md">
               <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
-          </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card h-100">
+        <img src="img/elfhat.jpg" class="card-img-top img-thumbnail" alt="Scarf">
+        <div class="card-body purplelight">
+          <h5 class="card-title purpleheart">Elf Hat &nbsp;$25</h5>
+          <p class="card-text purpleheart">Red and Green. Perfect for the Winter Holidays.</p>
+          <div class="row">
+            <div class="col-md">
+              <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card h-100">
+        <img src="img/hoodie_scarf.jpg" class="card-img-top img-thumbnail" alt="Gloves">
+        <div class="card-body purplelight">
+          <h5 class="card-title purpleheart">Rainbow Hoodie-Scarf &nbsp;$25</h5>
+          <p class="card-text purpleheart">A Hoodie and a Scarf in one, you can't get better than this folks!</p>
+          <div class="row">
+            <div class="col-md">
+              <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card h-100">
+        <img src="img/headband_pink.jpg" class="card-img-top img-thumbnail" alt="Beanie">
+        <div class="card-body purplelight">
+          <h5 class="card-title purpleheart">Pink and Gray Headband &nbsp;$15</h5>
+          <p class="card-text purpleheart">This headband has a sporty look and feel to it. </p>
+          <div class="row">
+            <div class="col-md">
+              <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="card h-200">
-      <img src="img/" class="card-img-top" alt="Gloves">
-      <div class="card-body">
-        <h5 class="card-title">Gloves</h5>
-        <p class="card-text">Text Here</p>
-        <div class="row">
-          <div class="col-md">
-              <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
-          </div>    
-        </div>
-      </div>
-    </div>
-    <div class="card h-200">
-      <img src="img/" class="card-img-top" alt="Beanie">
-      <div class="card-body">
-        <h5 class="card-title">Beanie</h5>
-        <p class="card-text">Text Here</p>
-        <div class="row">
-          <div class="col-md">
-              <button class="btn btn-purple" type="button" value="Input">Add to Cart</button>
-          </div>    
-        </div>
-      </div>
-    </div>
-  </div>
   </div>
 
   <!-- Embeded Map and Info -->
